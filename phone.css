@@ -1,0 +1,157 @@
+html, body {
+  overflow-x: hidden;
+    
+}
+
+
+
+
+    #about{
+        width:530px;
+    }
+.headings{
+    font-size: 1.7rem;
+}
+
+
+.input{
+    width: 80%;
+}
+#msg{
+    width: 70%;
+}
+
+#contact{
+width: 530px;
+}
+#contact input{
+    align-self: flex-start;
+    width: 320px;
+}
+#contact textarea{
+    align-self: flex-start;
+    width: 320px;
+}
+#send{
+    max-width: 100px;
+}
+.headings{
+    align-self: flex-start;
+    
+   
+}
+.navbar ul{
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+    
+}
+.navbar ul li{
+        font-family: 'Julius Sans One',sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+    }   
+
+.navbar ul li a{
+  display: block;
+  color: white;
+    font-size: 11px;
+  text-align: center;
+  margin: 10px;
+  padding: 1px;
+  text-decoration: none;
+}   
+
+#home h1{
+    width: 100%;
+}
+
+#home button{
+    margin-top: 50px;
+}
+.headingabout{
+    
+    margin-right: 150px
+}
+#about h2{
+    margin-right: 150px;
+    
+}
+#about p{
+    font-size: 18px;
+    text-align: left;
+    width: 80%;
+    margin-right: 100px;
+}
+
+.lefter{
+    margin-left: 5px;
+}
+.lefter h3{
+    width: 200px;
+}
+.lefter p{
+    width: 200px
+}
+
+.edsk{
+    display: list-item;
+    list-style-type: none;
+}
+#skills{
+    margin-top: 20px;
+    margin-left: 10px
+}
+.sill .percent{
+    width: 200px;
+}
+
+.experienceandcap{
+    display: list-item;
+    list-style-type: none;
+}
+.righter{
+    margin-left: 10px;
+}
+.righter h3{
+    width: 300px;
+}
+.righter li{
+    width: 300px;
+}
+
+#pic{
+    margin-left: 60px;
+    display: list-item;
+    list-style-type: none;
+    border: rgba(0,0,0,0.5)
+}
+#pic img{
+    
+
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+#intro{
+    width:100%;
+    
+    flex-direction: column;
+    text-align: le;
+    padding: 10px;
+    color: black;
+
+    
+    
+}
+.subj{
+    font-family:'Julius Sans One',sans-serif;
+    font-size: 1.4rem;
+    color: white;
+    margin-left: 10px;
+    
+    
+}

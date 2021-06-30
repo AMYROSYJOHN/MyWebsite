@@ -1,0 +1,374 @@
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-image: url('https://media.giphy.com/media/CGZGV8wix4lvJn3dxy/giphy.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15px
+    
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    position: sticky;
+    border-bottom: 1px solid #888;
+    top: 0;
+    
+}
+    .navbar ul{
+        display: flex;
+        list-style: none;
+        margin: 20px 0px;
+    }
+    .navbar ul li{
+        font-family: 'Julius Sans One',sans-serif;
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 22px 50px;
+    transition: all .2s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+     box-shadow: 0 0 10px white;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.5);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:inherit;
+    top: 50%;
+    right: 5%;
+}
+.headings{
+    font-family:'Julius Sans One',sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+    color: white;
+}
+.sub{
+    font-family:'Julius Sans One',sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 50px
+}
+.subj{
+    font-family:'Julius Sans One',sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 50px
+}
+.btn{
+    padding: 10px 45px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    cursor:pointer;
+    background-color: white;
+    color: gray;
+    box-shadow: 0 0 5px white,0 0 10px white,0 0 15px white;
+    font-weight: bold;
+}
+#about{ 
+    display:flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    
+    background-blend-mode: darken;
+    box-sizing: border-box;
+    padding: 20px;  
+}
+
+#pic{
+    display: flex;
+    flex-direction: column;
+    border: rgba(0,0,0,0.5)
+}
+#pic img{
+
+    align-self: center;
+    width: 250px;
+    height: 250px;
+    margin: 20px
+}
+.headingabout{
+    font-family:'Julius Sans One',sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    align-content: center;
+    margin: 30px 0px;
+    padding: 5px;
+    color: black;
+    border-bottom: 1px solid #888;
+    
+}
+.headingabouta{
+    font-family:'Julius Sans One',sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    align-content: center;
+    margin: 30px 0px;
+    padding: 5px;
+    color: black;
+    border-bottom: 1px solid #888;
+    
+}
+    #intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    color: black;
+    text-decoration-color: black;
+    
+    
+}
+#intro p{
+    color: black;
+    font-family: "Open Sans";
+    align-self: center;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    word-spacing: 3px;
+    white-space: 5px;
+    
+}
+#intro h2{
+    font-family: "Julius Sans One",sans-serif;
+    align-self: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: black;
+}
+#education{
+
+    
+    opacity: 0.9;
+    display:flex;
+    flex-direction: column;
+    background-color: dimgrey;
+    box-sizing: border-box;
+    padding: 20px; 
+    
+}
+#education h2{
+    margin-bottom: 10px;
+    border-bottom: 1px solid white ;
+    font-family: "Julius Sans One";
+    width:130px;
+    color: aliceblue;
+    
+}
+#education h1{
+    
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+
+.lefter{
+    margin-left: 150px;
+    margin-top: 60px;
+    width: 500px;
+    color: aliceblue;
+    
+    
+}
+.lefter h3{
+    color:navajowhite;
+    margin: 5px;
+}
+.lefter li{
+    margin: 10px;
+    padding: 5px;
+    color: aliceblue;
+}
+.lefter p{
+    color: aliceblue;
+    
+}
+.edsk{
+    margin-top: 10px;
+    
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-gap: 1rem; 
+    padding: 30px;
+    
+}
+#skills{
+    margin-left: 200px;
+    width: 400px;
+    color: antiquewhite;
+    margin-top: 60px;
+}
+.sill .percent{
+
+    position: relative;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 6px;
+    display: block;
+    margin-top: 5px;
+}
+.sill .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: navajowhite;   
+    
+}
+.sill{
+    margin-top: 15px;
+    
+  
+}
+.sill li{
+    margin: 12px;
+    color: navajowhite;
+}
+.experienceandcap{
+    
+    display: grid;
+    padding: 30px;
+    grid-template-columns: 40% 1fr;
+    grid-gap: 1rem;
+    margin-bottom: 50px;
+    
+}
+.righter{
+    margin-top: 60px; 
+    margin-left: 220px;
+}
+.righter h2{
+    margin-bottom: 25px
+}
+.righter li{
+   
+    padding: 10px;
+    color: aliceblue;
+}
+.righter h3{
+    color: navajowhite;
+}
+
+
+
+#contact{
+    background-image: url(hello.jpg);
+    opacity: 0.99;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;  
+    height: inherit;
+    
+}
+#contact h1{
+    border-bottom: 1px solid #888;
+    color: white;
+    border-bottom-color: white;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+.input{
+    
+    font-family:'Julius Sans One',sans-serif;
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+#msg{
+        font-family:'Julius Sans One',sans-serif;
+        width: 30%;
+        padding: 10px;
+        margin: 15px;
+        border: none;
+        outline: none;
+}
+#send{
+    font-family:'Julius Sans One',sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    color: black;
+    width: 10%;
+    margin: 40px;
+    border: none;
+    outline: none;
+}
+#send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white; 
+}
+
